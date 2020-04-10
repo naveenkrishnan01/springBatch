@@ -16,7 +16,7 @@ public class OddEvenNumber {
 
             if (i % 2 == 0){
                 int j = i -1;
-                System.out.println("Deduct 1 from the number " + j);
+                System.out.println("The number is " + j);
             }
         }
     }

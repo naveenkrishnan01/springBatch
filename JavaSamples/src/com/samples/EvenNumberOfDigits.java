@@ -14,7 +14,7 @@ public class EvenNumberOfDigits {
             String t = Integer.toString(num1);
             int x = t.length();
             if (x%2 == 0){
-                System.out.println("This is even Number of Digit" + num[i]);
+                System.out.println("This is even Number of Digit  " + num[i]);
             }
         }
 
