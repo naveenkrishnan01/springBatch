@@ -1,6 +1,6 @@
 package com.samples.DataStruct;
 
-import javax.xml.ws.soap.Addressing;
+
 
 public class GenericExample {
 
