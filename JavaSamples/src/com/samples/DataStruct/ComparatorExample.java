@@ -69,3 +69,11 @@ public class ComparatorExample {
          }
     }
 }
+
+// Comparator when object is compared with two objects specified, int his case Employee m1
+// and Employee m2
+
+    /*Comprator result tom 18 disabled
+        Comprator result zebra 20 Active
+        Comprator result murray 31 New
+*/

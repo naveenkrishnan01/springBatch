@@ -51,6 +51,7 @@ public class Comparable {
          @Override
          public int compareTo(Player otherPlayer) {
              return (this.getName().compareTo(otherPlayer.getName()));
+            // return (this.getRanking() - otherPlayer.getRanking());
          }
 
 
@@ -83,3 +84,27 @@ public class Comparable {
     }
 
 }
+// if you compare objects within the same objects in the class by int in this case ranking
+//The output would be
+/*Before Sorting ....
+        10 Zebra 10
+        8 Zara 15
+        22 Zane 34
+        After Sorting ....
+        8 Zara 15
+        10 Zebra 10
+        22 Zane 34
+*/
+
+// if you compare Objects within the same objects in the class by String in the case name
+// The output would be
+/*
+    Before Sorting ....
+        10 Zebra 10
+        8 Zara 15
+        22 Zane 34
+        After Sorting ....
+        22 Zane 34
+        8 Zara 15
+        10 Zebra 10
+*/
