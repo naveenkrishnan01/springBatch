@@ -47,7 +47,7 @@ public class Comparable {
              this.age = age;
          }
 
-  //  compare based in age
+  //  compare based on name or ranking
          @Override
          public int compareTo(Player otherPlayer) {
              return (this.getName().compareTo(otherPlayer.getName()));
