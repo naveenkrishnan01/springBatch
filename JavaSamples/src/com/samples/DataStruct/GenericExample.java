@@ -1,47 +1,45 @@
 package com.samples.DataStruct;
 
-public class GenericExample<T> {
+import javax.xml.ws.soap.Addressing;
 
-    private T t;
+public class GenericExample {
 
-    public GenericExample(){
 
+    @FunctionalInterface
+    public interface AnyArguments<Y> {
+        Y process(Y arg1, Y arg2);
     }
 
-    public GenericExample(T t){
-        this.t = t;
-    }
 
-    public T getT() {
-        return t;
-    }
-
-    public void setT(T t) {
-        this.t = t;
-    }
-
-    @Override
-    public String toString() {
-        return "GenericExample{" +
-                "t=" + t +
-                '}';
-    }
-
+    // Implementing the AnyArguments interface which can take any type.
     public static void main(String[] args) {
+      /*  // Example 1
+            AnyArguments<Integer> AddInt = new AnyArguments<Integer>() {
 
-        GenericExample<String> type = new GenericExample<>();
-             type.setT("Naveen");
+                // In this case it takes the Integer type
+                @Override
+                public Integer process(Integer arg1, Integer arg2) {
+                    return arg1 + arg2;
+                }
+            };
+            System.out.println(AddInt.process(2,5));
+            //output would be 7
 
-             System.out.println(type.toString());
+*/
+        //Example 2
 
-        GenericExample type1 = new GenericExample();
-        type1.setT("John");
-        type1.setT(200);
-        type1.setT(500.00);
-        type1.setT(-1);
 
-        for(int i =0; i<3; i++){
-            System.out.println(type1);
-        }
+        AnyArguments<String> AddWords = new AnyArguments<String>() {
+
+            // In this case it can take the String type
+            @Override
+            public String process(String arg1, String arg2) {
+                return arg1 + " " + arg2;
+            }
+        };
+
+        System.out.println(AddWords.process("Naveen", "Krishnan"));
+
     }
+
 }
