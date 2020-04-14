@@ -17,7 +17,7 @@ public class UniqueCharInString {
             if (result == false) {
                 break;
             }
-            System.out.println(result);
+            System.out.println(result +  " " + input.charAt(i));
         }
     }
 }

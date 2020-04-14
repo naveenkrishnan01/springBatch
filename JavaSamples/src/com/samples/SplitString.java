@@ -5,7 +5,7 @@ public class SplitString {
     public static void main(String[] args) {
 
         // split url
-        String Url = "https://qa-api.testcom?name=naveen&krishnan&id=2000";
+        String Url = "https://qa-api.testcom?name=naveen&lname=krishnan&id=2000";
 
         String [] t = Url.split("['&', '?']");
 
@@ -13,7 +13,7 @@ public class SplitString {
             System.out.println(x + "\n" + "\n");
         }
 
-        // split string
+     /*   // split string
         String str = "I am going to school";
 
         String [] j = str.split(" ");
@@ -27,6 +27,6 @@ public class SplitString {
         char[] hold_url = Url.toCharArray();
         for (int i=0; i<k_lenght; i++){
             System.out.println(hold_url[i]);
-        }
+        }*/
     }
 }
