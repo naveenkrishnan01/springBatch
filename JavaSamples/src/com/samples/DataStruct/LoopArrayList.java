@@ -24,7 +24,7 @@ public class LoopArrayList {
 
         ArrayList<String> comp = loopArrayList();
 
-        for (int i=0; i<=Company_Size; i++){
+        for (int i=0; i<=Company_Size-1; i++){
             System.out.println(comp.get(i));
         }
 

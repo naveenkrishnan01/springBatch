@@ -4,7 +4,7 @@ public class RotateArray {
 
     static void rotateLeft(int [] arr){
          int [] arr1 =  {2,4,6,7,9};
-         int n = 3;
+         int n = 2;
 
          for (int i =0; i<n; i++){
           int first;

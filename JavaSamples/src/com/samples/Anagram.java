@@ -40,7 +40,7 @@ public class Anagram {
     }
 
     public static void main(String[] args) {
-           check_anagram("stores", "toresm");
+           check_anagram("stores", "toress");
 
     }
 }
