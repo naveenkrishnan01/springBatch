@@ -1,0 +1,3 @@
+io/spring/batch/configuration/EmployeeConfiguration.class
+io/spring/batch/domain/Employee.class
+io/spring/batch/ReadingXmlApplication.class

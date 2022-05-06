@@ -1,0 +1,5 @@
+/Users/naveen/springBatch/readingXML/src/main/java/io/spring/batch/ReadingXmlApplication.java
+/Users/naveen/springBatch/readingXML/src/main/java/io/spring/batch/domain/Employee.java
+/Users/naveen/springBatch/readingXML/src/main/java/io/spring/batch/domain/Customer.java
+/Users/naveen/springBatch/readingXML/src/main/java/io/spring/batch/configuration/EmployeeConfiguration.java
+/Users/naveen/springBatch/readingXML/src/main/java/io/spring/batch/configuration/JobConfiguration.java
